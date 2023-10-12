@@ -1,5 +1,5 @@
 import Vue from '@vitejs/plugin-vue'
-import VueI18n from '@intlify/vite-plugin-vue-i18n'
+import VueI18n from '@intlify/unplugin-vue-i18n/vite'
 import Unocss from 'unocss/vite'
 import { defineConfig } from 'vite'
 
@@ -10,10 +10,6 @@ export default defineConfig({
   plugins: [
     Vue(),
     Unocss(),
-    VueI18n({
-      runtimeOnly: true,
-      compositionOnly: false,
-      defaultSFCLang: "json",
-    }),
+    VueI18n(),
   ],
 })
