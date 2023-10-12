@@ -17,7 +17,5 @@ export default {
   "en": {
     "Twitter": "Twitter"
   },
-  "es": {
-  }
 }
 </i18n>

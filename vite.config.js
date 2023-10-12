@@ -1,4 +1,3 @@
-import path from 'path'
 import Vue from '@vitejs/plugin-vue'
 import VueI18n from '@intlify/vite-plugin-vue-i18n'
 import Unocss from 'unocss/vite'
